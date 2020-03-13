@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0038370c-2548-4bbe-ab4f-169814bd5191" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boot_interface_api/src/main/java/com/sc/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_interface_api/src/main/java/com/sc/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_interface_api/src/main/java/com/sc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_interface_api/src/main/java/com/sc/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_interface_api/target/classes/com/sc/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/boot_interface_api/target/classes/com/sc/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_role_service/src/main/java/com/sc/BootRoleServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_role_service/src/main/java/com/sc/BootRoleServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_role_service/src/main/java/com/sc/serviceimpl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_role_service/src/main/java/com/sc/serviceimpl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_role_service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_role_service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_file_service/src/main/java/com/sc/serviceimpl/StudyFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_file_service/src/main/java/com/sc/serviceimpl/StudyFileServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot_user_service/src/main/java/com/sc/serviceimpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_user_service/src/main/java/com/sc/serviceimpl/UserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/boot_user_service/target/" />
@@ -31,20 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot_role_service/src/main/resources/application.yml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boot_file_service/src/main/java/com/sc/serviceimpl/StudyFileServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot_role_service/src/main/java/com/sc/serviceimpl/RoleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="162">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,19 +34,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot_role_service/src/main/java/com/sc/BootRoleServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boot_user_service/src/main/java/com/sc/serviceimpl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="132">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +76,6 @@
         <option value="$PROJECT_DIR$/boot_file_service/pom.xml" />
         <option value="$PROJECT_DIR$/boot_interface_api/src/main/java/com/sc/entity/StudyFile.java" />
         <option value="$PROJECT_DIR$/boot_file_service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/boot_file_service/src/main/java/com/sc/serviceimpl/StudyFileServiceImpl.java" />
         <option value="$PROJECT_DIR$/boot_file_service/src/main/java/com/sc/BootFileServiceApplication.java" />
         <option value="$PROJECT_DIR$/boot_role_service/src/main/java/com/sc/service/RoleService.java" />
         <option value="$PROJECT_DIR$/boot_role_service/pom.xml" />
@@ -117,6 +88,7 @@
         <option value="$PROJECT_DIR$/boot_role_service/src/main/java/com/sc/BootRoleServiceApplication.java" />
         <option value="$PROJECT_DIR$/boot_interface_api/src/main/java/com/sc/entity/User.java" />
         <option value="$PROJECT_DIR$/boot_user_service/src/main/java/com/sc/serviceimpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/boot_file_service/src/main/java/com/sc/serviceimpl/StudyFileServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -195,6 +167,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sc" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot_file_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
@@ -367,7 +348,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584096251727" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584100147257" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -442,7 +423,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584064013456</updated>
-      <workItem from="1584064014668" duration="16476000" />
+      <workItem from="1584064014668" duration="17799000" />
     </task>
     <task id="LOCAL-00001" summary="idea上传文件">
       <created>1584076330561</created>
@@ -458,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584095306013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="角色信息微服务">
+      <created>1584096273844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584096273844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16476000" />
+    <option name="totallyTimeSpent" value="17799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -474,18 +462,18 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.22654155" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.22654155" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067025" side_tool="true" weight="0.3282123" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067025" side_tool="true" weight="0.32681563" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.33193862" />
       <window_info anchor="bottom" id="Problems" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49932975" visible="true" weight="0.3282123" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49932975" visible="true" weight="0.32681563" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
       <window_info anchor="bottom" id="Message" order="11" />
       <window_info anchor="bottom" id="Find" order="12" weight="0.32914925" />
@@ -761,16 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot_file_service/src/main/java/com/sc/serviceimpl/StudyFileServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boot_interface_api/src/main/java/com/sc/entity/StudyFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -797,8 +775,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boot_user_service/src/main/java/com/sc/serviceimpl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="132">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_file_service/src/main/java/com/sc/serviceimpl/StudyFileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

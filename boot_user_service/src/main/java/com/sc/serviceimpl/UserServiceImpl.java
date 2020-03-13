@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
-    @Reference
+    @Reference(check = false)
     private RoleService roleService;
 
     @Override

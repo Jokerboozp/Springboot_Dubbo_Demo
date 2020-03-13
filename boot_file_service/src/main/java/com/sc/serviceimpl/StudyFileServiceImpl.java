@@ -16,7 +16,7 @@ public class StudyFileServiceImpl implements StudyFileService {
 
     @Autowired
     private StudyFileMapper studyFileMapper;
-    @Reference //注解 注册中心引用服务
+    @Reference(check = false) //注解 注册中心引用服务
     private UserService userService;
 
     @Override
