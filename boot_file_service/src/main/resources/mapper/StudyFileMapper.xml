@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sc.mapper.StudyFileMapper">
+
+    <select id="getAllStudyFile" resultType="com.sc.entity.StudyFile">
+        SELECT * FROM studyfile
+    </select>
+
+    <update id="updateStudyFile" parameterType="com.sc.entity.StudyFile">
+        update studyfile
+        <set>
+            <if test="studyfileName!=null">studyfile_name=#{studyfileName},</if>
+            <if test="userId!=null">user_id=#{userId},</if>
+            <if test="childtypeId!=null">childtype_id=#{childtypeId},</if>
+            <if test="createTime!=null">create_time=#{createTime},</if>
+            <if test="studyfileInfo!=null">studyfile_info=#{studyfileInfo},</if>
+            <if test="studyfileStatus!=null">studyfile_status=#{studyfileStatus},</if>
+            <if test="studyfileFav!=null">studyfile_fav=#{studyfileFav},</if>
+            <if test="studyfileReview!=null">studyfile_review=#{studyfileReview},</if>
+            <if test="studyfilePath!=null">studyfile_path=#{studyfilePath},</if>
+            <if test="maintypeId!=null">maintype_id=#{maintypeId},</if>
+            <if test="fileLevel!=null">file_level=#{fileLevel}</if>
+        </set>
+        where studyfile_id=#{studyfileId}
+    </update>
+
+    <select id="getStudyFileById" parameterType="Integer" resultType="com.sc.entity.StudyFile">
+        SELECT * FROM studyfile where studyfile_id=#{studyfileId}
+    </select>
+
+    <select id="getFileByType" parameterType="Integer" resultType="com.sc.entity.StudyFile">
+        SELECT * FROM studyfile where childtype_id=#{childtypeId} and studyfile_status=1
+    </select>
+
+    <select id="getFileByMainType" parameterType="Integer" resultType="com.sc.entity.StudyFile">
+        SELECT * FROM studyfile where maintype_id=#{maintypeId} and studyfile_status=1
+    </select>
+
+    <select id="getFileByStatus" parameterType="Integer" resultType="com.sc.entity.StudyFile">
+        SELECT * FROM studyfile where studyfile_status=#{studyfileStatus}
+    </select>
+
+    <select id="getStudyFileByUser" parameterType="Integer" resultType="com.sc.entity.StudyFile">
+        SELECT * FROM studyfile where user_id=#{userId}
+    </select>
+
+    <select id="searchFile" parameterType="String" resultType="com.sc.entity.StudyFile">
+        SELECT * FROM studyfile where studyfile_name like #{studyfileName}
+    </select>
+
+    <select id="searchPassFile" parameterType="String" resultType="com.sc.entity.StudyFile">
+        SELECT * FROM studyfile where studyfile_name like #{studyfileName} and studyfile_status=1
+    </select>
+
+    <select id="getYearPerMonthFile" resultType="Integer">
+        select COUNT(*) from studyfile where year(create_time)=2020 GROUP BY MONTH(create_time);
+    </select>
+
+    <insert id="addStudyFile" parameterType="com.sc.entity.StudyFile" useGeneratedKeys="true" keyProperty="studyfileId">
+        insert into studyfile(studyfile_id, studyfile_name, user_id, childtype_id, create_time, studyfile_info, studyfile_status, studyfile_fav, studyfile_review,studyfile_path,maintype_id,file_level)
+        values
+        (#{studyfileId},#{studyfileName},#{userId},#{childtypeId},#{createTime},#{studyfileInfo},#{studyfileStatus},#{studyfileFav},#{studyfileReview},#{studyfilePath},#{maintypeId},#{fileLevel})
+    </insert>
+
+    <delete id="deleteStudyFile" parameterType="Integer">
+        delete from studyfile where studyfile_id=#{studyfileId}
+    </delete>
+
+    <select id="getTodayFile" parameterType="Integer" resultType="com.sc.entity.StudyFile">
+        SELECT * FROM studyfile where to_days(create_time) = to_days(now()) and studyfile_status=#{studyfileStatus}
+    </select>
+
+</mapper>
