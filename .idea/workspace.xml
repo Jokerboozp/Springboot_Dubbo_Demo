@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0038370c-2548-4bbe-ab4f-169814bd5191" name="Default Changelist" comment="" />
+    <list default="true" id="0038370c-2548-4bbe-ab4f-169814bd5191" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/boot_user_service/target/" />
     <ignored path="$PROJECT_DIR$/boot_file_service/target/" />
     <ignored path="$PROJECT_DIR$/boot_interface_api/target/" />
@@ -24,6 +26,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,6 +78,7 @@
     <option name="width" value="980" />
     <option name="height" value="1070" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -80,144 +86,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_file_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_file_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_file_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_file_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_file_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_file_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sc" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceimpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_file_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_interface_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_interface_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_interface_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_interface_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_interface_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_interface_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sc" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_user_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sc" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceimpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="boot_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +96,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584074962501" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584076299808" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -293,12 +162,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584064013456</updated>
-      <workItem from="1584064014668" duration="10535000" />
+      <workItem from="1584064014668" duration="11840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10535000" />
+    <option name="totallyTimeSpent" value="11840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -320,7 +189,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" visible="true" weight="0.32775453" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" visible="true" weight="0.3282123" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
       <window_info anchor="bottom" id="Message" order="11" />
       <window_info anchor="bottom" id="Find" order="12" weight="0.32914925" />
