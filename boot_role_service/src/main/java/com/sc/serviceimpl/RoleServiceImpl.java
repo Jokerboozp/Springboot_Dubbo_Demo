@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
+@com.alibaba.dubbo.config.annotation.Service
 public class RoleServiceImpl implements RoleService {
 
     @Autowired

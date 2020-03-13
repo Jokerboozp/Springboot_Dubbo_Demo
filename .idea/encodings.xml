@@ -3,6 +3,7 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/boot_file_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_interface_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_role_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_user_service" charset="UTF-8" />
   </component>
 </project>

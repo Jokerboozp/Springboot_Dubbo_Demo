@@ -2,6 +2,7 @@ package com.sc.entity;
 
 import lombok.Data;
 
+import javax.management.relation.Role;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -26,4 +27,5 @@ public class User implements Serializable {
     private Integer roleId;
     //用户生日
     private Date userBirth;
+    private Role role;
 }

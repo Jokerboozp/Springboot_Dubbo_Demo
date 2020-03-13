@@ -1,7 +1,10 @@
 package com.sc.serviceimpl;
 
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.sc.entity.Role;
 import com.sc.entity.User;
 import com.sc.mapper.UserMapper;
+import com.sc.service.RoleService;
 import com.sc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,6 +18,9 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
+    @Reference
+    private RoleService roleService;
+
     @Override
     public List<User> getAllUser() {
         return userMapper.getAllUser();
@@ -22,7 +28,10 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User getUserById(Integer userId) {
-        return userMapper.getUserById(userId);
+        User userById = userMapper.getUserById(userId);
+        Role roleById = roleService.getRoleById(userById.getRoleId());
+        System.out.println("当前用户角色信息为"+roleById.getRoleName());
+        return userById;
     }
 
     @Override

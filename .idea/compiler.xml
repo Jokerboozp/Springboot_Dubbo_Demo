@@ -8,18 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="boot_file_service" />
         <module name="boot_interface_api" />
+        <module name="boot_role_service" />
         <module name="boot_user_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot_file_service" target="1.8" />
       <module name="boot_interface_api" target="1.7" />
+      <module name="boot_role_service" target="1.8" />
       <module name="boot_user_service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="boot_file_service" options="-parameters" />
+      <module name="boot_role_service" options="-parameters" />
       <module name="boot_user_service" options="-parameters" />
     </option>
   </component>
